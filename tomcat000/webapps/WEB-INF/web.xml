@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <uri>/reg</uri>
+        <class>web.RegServlet</class>
+    </servlet>
+    <servlet>
+        <uri>/login</uri>
+        <class>web.LoginServlet</class>
+    </servlet>
+</web-app>
